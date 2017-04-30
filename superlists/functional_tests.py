@@ -6,6 +6,6 @@ browser = webdriver.Chrome()
 browser.get('http://localhost:8000')
 
 # Notice the title and header
-assert 'Django' in browser.title
+assert 'To-Do' in browser.title
 
 browser.quit()
